@@ -22,7 +22,7 @@ def fibonacci(n):
             total = num1 + num2
             num1 = num2
             num2 = total
-            sucesion.append(total)
+            sucesion.append(total - num1)
             
         return sucesion
     else:
@@ -31,9 +31,9 @@ def fibonacci(n):
 def prueba():
     
     print('Bienvenido a mi codigo!')
-    numero = ingreso_entero('Ingrese un numero n:')
+    numero = ingreso_entero('\nIngrese un numero n para determinar su posicion en la sucesion de Fibonacci:')
     sucesion_fibonacci = fibonacci(numero)
-    print('Termino: ', sucesion_fibonacci)
+    print('\nTermino: ', sucesion_fibonacci)
 
 
 if __name__ == "__main__":
