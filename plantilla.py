@@ -1,5 +1,5 @@
 ################
-# Martín René - @martinvilu
+# Galo Orellana - @OrellanaGalo
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
 
@@ -8,7 +8,6 @@
 
 
 def prueba():
-    """Toda la interacción con el usuario va acá"""
     pass
 
 if __name__ == "__main__":
