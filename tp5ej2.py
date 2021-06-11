@@ -26,7 +26,7 @@ def fibonacci(n):
             
         return sucesion
     else:
-        pass 
+        return 1 
 
 def prueba():
     

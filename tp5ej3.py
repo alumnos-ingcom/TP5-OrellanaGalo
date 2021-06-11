@@ -25,7 +25,7 @@ def tribonacci(n):
             sucesion.append(total - num1 - num2) 
         return sucesion
     else:
-        return 0
+        return 1
 def prueba():
     
     print('Bienvenido a mi codigo')
