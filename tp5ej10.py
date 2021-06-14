@@ -23,10 +23,10 @@ def conversion_binaria(numero):
 
 def prueba():
     
-    print('Bienvenido a mi codigo')
-    numero = ingreso_entero('Ingresa un numero entero')
+    print('Bienvenido a mi codigo!')
+    numero = ingreso_entero('\nIngresa un numero entero para convertirlo a binario: ')
     resultado = conversion_binaria(numero)
-    print(f'{resultado}')
+    print(f'\n SISTEMA DECIMAL     SISTEMA BINARIO\n       {numero}           {resultado}')
 
 if __name__ == "__main__":
     prueba()

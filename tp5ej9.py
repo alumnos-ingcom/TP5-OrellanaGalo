@@ -8,10 +8,14 @@
 
 from tp4ej1 import ingreso_entero
 
+class MenorACero (Exception):
+    """Esta es la excepcion para los enteros menores a cero"""
+    pass
+
 def calculadora_factorial(numero):
     
     if numero < 0:
-        print('No existe')
+        raise MenorACero('No existen enteros exponenciables menores a cero')
     elif numero == 0:
         return 1
     else:
@@ -33,12 +37,12 @@ def lista_factoriales():
     return lista_factoriales
 
 def factoriones():
-    n_factorion = digito_
+    pass
 
 def prueba():
     
     numero = ingreso_entero('*')
-    resultado = 
+    resultado = calculadora_factorial(numero)
     print(f'{resultado}')
 
 if __name__ == "__main__":
