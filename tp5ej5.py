@@ -8,9 +8,20 @@
 
 def inversion_mayusculas(texto):
     
-    cambio = texto.swapcase()
-    
-    return cambio
+    lista = []
+    for i in texto:
+        if i.isupper():
+            mayuscula_unicode = ord(i)
+            inversion = mayuscula_unicode + 32
+            letra_nueva = chr(inversion)
+            lista.append(letra_nueva)
+        elif i.islower():
+            minuscula_unicode = ord(i)
+            inversion = minuscula_unicode - 32
+            letra_nueva = chr(inversion)
+            lista.append(letra_nueva)
+    str1 = " "
+    return (str1.join(lista))
 
 def prueba():
     
