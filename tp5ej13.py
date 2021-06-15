@@ -16,11 +16,11 @@ def construccion_texto(mensaje):
 
 def ubicacion_palabra(texto, palabra):
     
+    contador = 0
     misma_palabra = 0
     for i in texto:
         for i in palabra:
-            misma_palabra = misma_palabra + 1
-    return enumerate(misma_palabra >= len(texto))
+            return misma_palabra == misma_palabra + 1
     
 def prueba():
     
